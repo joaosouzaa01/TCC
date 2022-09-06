@@ -1,0 +1,42 @@
+.toolbar {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0094FF;
+    color: white;
+    font-weight: 600;
+    
+    .logo {
+      height: auto;
+      margin: 5px 2vw;
+      width: 150px;
+    }
+
+    .links{
+      display: flex;
+      align-items: center;
+      margin: 5px 4vw;
+      gap: 30px;
+
+      .link__toolbar{
+        cursor: pointer;
+        border-bottom: 1px solid #fff;
+      }
+
+      .link__toolbar:hover{
+        color: aqua;
+        border-bottom: 1px solid aqua;
+      }
+
+      .icon__toolbar{
+        height: auto;
+        width: 30px;
+      }
+    }
+ 
+}
+
