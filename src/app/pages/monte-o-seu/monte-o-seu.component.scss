@@ -1,0 +1,41 @@
+.titulo{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #fff;
+}
+
+.geral{
+    width: 90%;
+    margin: auto;
+    margin-top: 1%;
+}
+   
+.cards__container{
+       width: 100%;
+       display: flex;
+       justify-content: center;
+}
+
+.container_titulo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+       
+.cards__header{
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0094FF;
+       border-radius: 8px;
+}
+   
+.setaParaBaixo{
+   padding-left: 600px;
+}
+   
+   
+   

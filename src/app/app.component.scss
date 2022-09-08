@@ -17,12 +17,14 @@
     }
 
     .links{
+      color: #fff;
       display: flex;
       align-items: center;
       margin: 5px 4vw;
       gap: 30px;
 
       .link__toolbar{
+        color: #fff;
         cursor: pointer;
         border-bottom: 1px solid #fff;
       }
