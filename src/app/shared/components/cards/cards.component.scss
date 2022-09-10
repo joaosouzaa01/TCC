@@ -18,37 +18,63 @@
     }
 }
 
-.cards{
-   width: 350px;
-   height: 40px;
-   display: flex;
-   justify-content: center;
-   margin-top: 10px;
-   border:1px solid #e0e0e0b7; 
-   background-color: #e0e0e0b7; 
-   border-radius: 10px;
-   margin: 1.5%;
-    
+.grade__cards{
+  margin: 10px 0 0 0;
+  display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
   
- }
-.line{
-  background-color: #e0e0e0b7;
-  width: 350px;
-  height: 3px;
-  margin: 1.5%;
+  .card{
 
+    .nivel__card{
+      text-align: center;
+      color: #3cff00;
+      font-size: 30px;
+    }
+
+    .faixa__preco{
+      display: flex;
+      height: 50px;
+      justify-content: center;
+      align-items: center;
+      background-color: #e2dcdc;
+      border-radius: 10px;
+      gap: 20px;
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    .pc__info{
+      display: flex;
+      margin: 10px 0;
+      padding: 7px;
+      border: none;
+      border-top: 2px solid #DADADA ;
+      border-bottom: 2px solid #DADADA ;
+ 
+      .imagem{
+        .cardsImg{
+          width:150px ;
+          height: 120px;
+          display: flex;
+          margin: 1%;
+          margin-left:1% ;
+        }
+      }
+
+      .linhas__info{
+        font-weight: 500;
+        .titulo__info{
+          margin-bottom: 5px;
+         font-size: 20px;
+         font-weight: 700;
+        }
+        .nivel__card--info{
+          font-weight: bolder;
+          color: #3cff00;
+        }
+      }
+    }
   }
-  
-.cardsImg{
-  width:150px ;
-  height: 120px;
-  display: flex;
-  margin: 1%;
-  margin-left:1% ;
 }
-
-.textPc{
-  justify-content: right;
-}
-
 }
