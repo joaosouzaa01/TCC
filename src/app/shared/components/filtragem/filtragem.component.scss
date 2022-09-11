@@ -1,0 +1,59 @@
+.example-container {
+    position: absolute;
+    width: 600px;
+    height: 100vh;
+  }
+  
+  .example-sidenav-content {
+    display: flex;
+    height: 10%;
+    align-items: center;
+    justify-content: left;
+
+    .botao__filtro{
+        height: 80px;
+        width: 90px;
+        border-radius: 20px;
+        margin: 100px 0 0 -45px;
+        border: none;
+        background-color: #0094FF;
+
+        .icone__seta{
+            margin-left:35px;
+            height: 30px;
+            width: 30px;
+            fill: #fff;
+        }
+    }
+  }
+  
+  .example-sidenav {
+    width: 20vw;
+    border: none;
+    border-right: 1px solid #0094FF;
+    padding: 20px;
+
+    .titulo__filtragem{
+        font-size: 30px;
+        color:#0094FF;
+       }
+
+    .opcoes__filtragem{
+     display: flex;
+     flex-direction: column;
+     margin: 10px 20px 0 0;
+     gap: 20px;
+
+     .checkbox{
+        background-color: #0094FF;
+     }
+
+     .pesquisa__filtragem{
+      width: 80%;
+      height: 30px;
+      border: 2px solid #a19e9e;
+      padding: 2px 2px 2px 15px;
+     }
+    }
+  }
+  

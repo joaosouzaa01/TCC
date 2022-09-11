@@ -9,6 +9,9 @@ import { MonteOSeuComponent } from './pages/monte-o-seu/monte-o-seu.component';
 import { SlideshowComponent } from './shared/components/slideshow/slideshow.component';
 import { CardsComponent } from './shared/components/cards/cards.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FiltragemComponent } from './shared/components/filtragem/filtragem.component';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import {MatChipsModule} from '@angular/material/chips';
 
 @NgModule({
   declarations: [
@@ -16,13 +19,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HomeComponent,
     MonteOSeuComponent,
     SlideshowComponent,
-    CardsComponent
+    CardsComponent,
+    FiltragemComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatCheckboxModule 
+    MatCheckboxModule,
+    MatSidenavModule,
+    MatChipsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
